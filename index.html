@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>John Doe - Pen & Paper Artist</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <a href="#home" class="logo">John Doe</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Isaiah Martins - Artist</h1>
+        <p>Creating stories through lines and sketches.</p>
+        <a href="#gallery" class="cta-btn">Explore Gallery</a>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/657/original/Screenshot_%2825%29.png?1725845405"
+            alt="Artwork 1"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/658/original/Screenshot_%2821%29.png?1725845435"
+            alt="Artwork 2"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/657/original/Screenshot_%2825%29.png?1725845405"
+            alt="Artwork 3"
+          />
+        </div>
+        <!-- Add more gallery items here -->
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <h2>About the Artist</h2>
+      <div class="about-content">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/659/original/Screenshot_%2826%29.png?1725845454"
+          alt="Artist's profile photo"
+          class="profile-img"
+        />
+        <div class="about-text">
+          <p>
+            John Doe is a pen and paper artist with a passion for creating
+            intricate drawings that reflect his personal view of the world. With
+            a background in fine arts and years of experience, he has developed
+            a signature style...
+          </p>
+          <blockquote>
+            "Art is not what you see, but what you make others see." – Edgar
+            Degas
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" />
+        <input type="email" name="email" placeholder="Your Email" />
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2024 John Doe. All rights reserved.</p>
+      <ul class="social-icons">
+        <li>
+          <a
+            href="https://www.instagram.com/iscomart11?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+            >Instagram
+          </a>
+        </li>
+        <li><a href="#">Behance</a></li>
+      </ul>
+    </footer>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
