@@ -12,6 +12,11 @@
     <header>
       <nav>
         <a href="#home" class="logo">John Doe</a>
+        <div class="hamburger-menu" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#gallery">Gallery</a></li>
@@ -84,9 +89,23 @@
     <section id="contact" class="contact-section">
       <h2>Contact Me</h2>
       <form class="contact-form">
-        <input type="text" name="name" placeholder="Your Name" />
-        <input type="email" name="email" placeholder="Your Email" />
-        <textarea name="message" placeholder="Your Message"></textarea>
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          aria-required="true"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          aria-required="true"
+        />
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          aria-required="true"
+        ></textarea>
         <button type="submit">Send Message</button>
       </form>
     </section>
@@ -99,6 +118,7 @@
           <a
             href="https://www.instagram.com/iscomart11?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             target="_blank"
+            rel="noopener noreferrer"
             >Instagram
           </a>
         </li>

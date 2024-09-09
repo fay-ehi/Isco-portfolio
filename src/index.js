@@ -17,4 +17,12 @@ document.addEventListener("DOMContentLoaded", function () {
   modal.addEventListener("click", function () {
     modal.style.display = "none";
   });
+
+  // Toggle navigation menu
+  const hamburgerMenu = document.querySelector(".hamburger-menu");
+  const navLinks = document.querySelector(".nav-links");
+
+  hamburgerMenu.addEventListener("click", function () {
+    navLinks.classList.toggle("active");
+  });
 });
